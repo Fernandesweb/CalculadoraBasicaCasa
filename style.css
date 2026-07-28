@@ -13,7 +13,7 @@ body{
     flex-direction: column;
     padding: 30px;
     gap: 10px;
-    box-shadow: 0 0 20px white;
+    box-shadow: 0 0 90px red;
     border-radius: 8px;
 }
 
@@ -26,7 +26,7 @@ main{
 
 .titulo{
     font-size: 25px;
-    color: blue;
+    color: black;
     text-align: center;
     font-weight: 900;
 }

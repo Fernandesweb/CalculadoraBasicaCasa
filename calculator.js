@@ -1,6 +1,6 @@
 'use strict'
  
-const botaoSoma = document.getElementById('botao-Soma')
+{const botaoSoma = document.getElementById('botao-Soma')
 
 
 
@@ -16,12 +16,11 @@ resultado.textContent = `${Number(num1)} + ${Number(num2)} é igual á: ${Number
 
 }
 
-botaoSoma.addEventListener('click', mostrarResultado)
+botaoSoma.addEventListener('click', mostrarResultado)}
 
 
 
-
-const botaoSub = document.getElementById('botao-sub')
+{const botaoSub = document.getElementById('botao-sub')
 
 function mostrarResultado(){
 
@@ -35,13 +34,13 @@ function mostrarResultado(){
 
 }
 
-botaoSub.addEventListener('click', mostrarResultado)
+botaoSub.addEventListener('click', mostrarResultado)}
 
 
 
 
 
-const botaoMult = document.getElementById('botao-mult')
+{const botaoMult = document.getElementById('botao-mult')
 
 function mostrarResultado(){
 
@@ -54,14 +53,14 @@ function mostrarResultado(){
     resultado.textContent = `${Number(num1)} x ${Number(num2)} é igual á: ${Number(valor3)}`
 }
 
-botaoMult.addEventListener('click', mostrarResultado)
+botaoMult.addEventListener('click', mostrarResultado)}
 
 
 
 
 
 
-const botaoDiv = document.getElementById('botao-div')
+{const botaoDivi = document.getElementById('botao-divi')
 
 function mostrarResultado(){
 
@@ -71,8 +70,8 @@ function mostrarResultado(){
 
     const valor4 = Number(num1) / Number(num2)
 
-    resultado.textContent = `${Number(num1)} / ${Number(num2)} é igual á: ${Number(valor4)}`
+    resultado.textContent = `${Number(num1)} ÷ ${Number(num2)} é igual á: ${Number(valor4)}`
 
 }
 
-botaoDiv.addEventListener('click', mostrarResultado)
+botaoDivi.addEventListener('click', mostrarResultado)}
