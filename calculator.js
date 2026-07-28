@@ -17,3 +17,62 @@ resultado.textContent = `${Number(num1)} + ${Number(num2)} é igual á: ${Number
 }
 
 botaoSoma.addEventListener('click', mostrarResultado)
+
+
+
+
+const botaoSub = document.getElementById('botao-sub')
+
+function mostrarResultado(){
+
+    const num1 = document.getElementById('nb1').value
+    const num2 = document.getElementById('nb2').value
+    const resultado = document.getElementById('resultado')
+
+    const valor2 = Number(num1) - Number(num2)
+
+    resultado.textContent = `${Number(num1)} - ${Number(num2)} é igual á: ${Number(valor2)}`
+
+}
+
+botaoSub.addEventListener('click', mostrarResultado)
+
+
+
+
+
+const botaoMult = document.getElementById('botao-mult')
+
+function mostrarResultado(){
+
+    const num1 = document.getElementById('nb1').value
+    const num2 = document.getElementById('nb2').value
+    const resultado = document.getElementById('resultado')
+
+    const valor3 = Number(num1) * Number(num2)
+
+    resultado.textContent = `${Number(num1)} x ${Number(num2)} é igual á: ${Number(valor3)}`
+}
+
+botaoMult.addEventListener('click', mostrarResultado)
+
+
+
+
+
+
+const botaoDiv = document.getElementById('botao-div')
+
+function mostrarResultado(){
+
+    const num1 = document.getElementById('nb1').value
+    const num2 = document.getElementById('nb2').value
+    const resultado = document.getElementById('resultado')
+
+    const valor4 = Number(num1) / Number(num2)
+
+    resultado.textContent = `${Number(num1)} / ${Number(num2)} é igual á: ${Number(valor4)}`
+
+}
+
+botaoDiv.addEventListener('click', mostrarResultado)
